@@ -18,11 +18,10 @@ function recommendSongs() {
     calm: [
       { title: "Weightless - Marconi Union", link: "https://www.youtube.com/watch?v=UfcAVejslrU" },
       { title: "Sunset Lover - Petit Biscuit", link: "https://www.youtube.com/watch?v=4DZpJU8A3-M" }
-    ]
-  };
-  angry: [
+    ],
+    angry: [
       { title: "KIRAI PARI JAWOS", link: "https://www.youtube.com/watch?v=PJmlPtTcOXA&list=RDPJmlPtTcOXA&start_radio=1" },
-      { title: "Imagine dragons", link: "https://www.youtube.com/watch?v=hHB1Ikzfpmc&list=RDhHB1Ikzfpmc&start_radio=1" }
+      { title: "Imagine Dragons - Natural", link: "https://www.youtube.com/watch?v=hHB1Ikzfpmc&list=RDhHB1Ikzfpmc&start_radio=1" }
     ]
   };
 
