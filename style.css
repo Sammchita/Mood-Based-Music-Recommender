@@ -32,4 +32,13 @@ button {
 .songs {
   margin-top: 25px;
   text-align: left;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+
+.songs p:hover {
+  transform: scale(1.03);
 }
