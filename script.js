@@ -25,6 +25,17 @@ function recommendSongs() {
     ]
   };
 
+  const moodColors = {
+  happy: "#FFF3CD",
+  sad: "#D6EAF8",
+  energetic: "#FADBD8",
+  calm: "#D5F5E3",
+  angry: "#F5B7B1"
+};
+
+document.body.style.background = moodColors[mood];
+
+
   // Clear previous songs
   songListDiv.innerHTML = "";
 
@@ -40,3 +51,4 @@ function recommendSongs() {
     songListDiv.appendChild(songItem);
   });
 }
+
