@@ -35,6 +35,17 @@ function recommendSongs() {
 
 document.body.style.background = moodColors[mood];
 
+  const moodMessage = {
+  happy: "Feeling great? Enjoy these vibes 😄",
+  sad: "It's okay to feel low 💙",
+  energetic: "Let's boost your energy ⚡",
+  calm: "Relax and breathe 🌿",
+  angry: "Let the music cool you down 😌"
+};
+
+songListDiv.innerHTML = `<h3>${moodMessage[mood]}</h3>`;
+
+
 
   // Clear previous songs
   songListDiv.innerHTML = "";
@@ -43,6 +54,13 @@ document.body.style.background = moodColors[mood];
     songListDiv.innerHTML = "<p>Please select a mood first.</p>";
     return;
   }
+  
+  function playRandom() {
+  if (!mood) return;
+  const songs = songDB[mood];
+  const randomSong = songs[Math.floor(Math.random() * songs.length)];
+  window.open(randomSong.link, "_blank");
+}
 
   const selectedSongs = songDB[mood];
   selectedSongs.forEach(song => {
@@ -51,4 +69,14 @@ document.body.style.background = moodColors[mood];
     songListDiv.appendChild(songItem);
   });
 }
+localStorage.setItem("mood", mood);
+window.onload = () => {
+  const savedMood = localStorage.getItem("mood");
+  if (savedMood) {
+    document.getElementById("moodSelector").value = savedMood;
+    recommendSongs();
+  }
+};
+
+
 
