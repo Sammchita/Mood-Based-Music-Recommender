@@ -8,7 +8,8 @@
 <body>
   <div class="container">
     <h1>How are you feeling today?</h1>
-    <select id="moodSelector">
+    <select id="moodSelector" onchange="recommendSongs()">
+      
       <option value="">Select a mood</option>
       <option value="happy">😊 Happy</option>
       <option value="sad">😢 Sad</option>
@@ -24,3 +25,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
