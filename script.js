@@ -5,19 +5,25 @@ function recommendSongs() {
   const songDB = {
     happy: [
       { title: "Happy - Pharrell Williams", link: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
-      { title: "Good Life - OneRepublic", link: "https://www.youtube.com/watch?v=jZhQOvvV45w" }
+      { title: "Good Life - OneRepublic", link: "https://www.youtube.com/watch?v=jZhQOvvV45w" },
+      {title: "Mai Koi Esa Geet Gaun" ,link: "https://www.youtube.com/watch?v=vzlXfZlH5dk"}
     ],
+   
     sad: [
       { title: "Let Her Go - Passenger", link: "https://www.youtube.com/watch?v=RBumgq5yVrA" },
-      { title: "Someone Like You - Adele", link: "https://www.youtube.com/watch?v=hLQl3WQQoQ0" }
+      {title:"Give me some sunshine - 3 Idiots", link:"https://www.youtube.com/watch?v=lbCRtrrMvSw"},
+      {title: "Someone Like You - Adele", link: "https://www.youtube.com/watch?v=hLQl3WQQoQ0" }
     ],
     energetic: [
-      { title: "Senorita - Shankar Ehsan Loy", link: "https://www.youtube.com/watch?v=2Z0Put0teCM&list=RD2Z0Put0teCM&start_radio=1" },
-      { title: "Thunder - Imagine Dragons", link: "https://www.youtube.com/watch?v=fKopy74weus" }
+      { title: "Senorita - Shankar Ehsan Loy", link: "https://www.youtube.com/watch?v=2Z0Put0teCM" },
+      { title: "Thunder - Imagine Dragons", link: "https://www.youtube.com/watch?v=fKopy74weus" },
+      {title:"Doko bunne nigalo choya ley", link:"https://www.youtube.com/watch?v=EApB0e646Nk"}
     ],
     calm: [
       { title: "Weightless - Marconi Union", link: "https://www.youtube.com/watch?v=UfcAVejslrU" },
-      { title: "Sunset Lover - Petit Biscuit", link: "https://www.youtube.com/watch?v=4DZpJU8A3-M" }
+      { title: "Every Breath you take- The Police", link: "https://www.youtube.com/watch?v=OMOGaugKpzs" },
+      {title: "Mocking Bird - Eminem", link: "https://www.youtube.com/watch?v=S9bCLPwzSC0"},
+      {title: "Gym Class Heroes - Adam Levine", link: "https://www.youtube.com/watch?v=T3E9Wjbq44"}
     ],
     angry: [
       { title: "KIRAI PARI JAWOS", link: "https://www.youtube.com/watch?v=PJmlPtTcOXA&list=RDPJmlPtTcOXA&start_radio=1" },
@@ -77,6 +83,7 @@ window.onload = () => {
     recommendSongs();
   }
 };
+
 
 
 
