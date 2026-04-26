@@ -22,7 +22,6 @@ function recommendSongs() {
     calm: [
       { title: "Weightless - Marconi Union", link: "https://www.youtube.com/watch?v=UfcAVejslrU" },
       { title: "Every Breath you take- The Police", link: "https://www.youtube.com/watch?v=OMOGaugKpzs" },
-      {title: "Mocking Bird - Eminem", link: "https://www.youtube.com/watch?v=S9bCLPwzSC0"},
       {title: "Gym Class Heroes - Adam Levine", link: "https://www.youtube.com/watch?v=T3E9Wjbq44"}
     ],
     angry: [
